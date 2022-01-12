@@ -21,11 +21,16 @@ body{
 `;
  
 const theme = {
-  colors: {
-    primary: "#fafafa",
+  dark: {
+    primary: '#000',
+    text: '#fff'
   },
-};
- 
+  light: {
+    primary: '#fff',
+    text: '#000'
+  },
+  fontFamily: 'Segoe UI'
+}
 function MyApp({ Component, pageProps }) {
   return (
     <>
