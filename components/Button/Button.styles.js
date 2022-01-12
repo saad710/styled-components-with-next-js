@@ -24,10 +24,14 @@ export const FancyButton = styled(StyledButton)`
   border: none;
 `
 
+export const HeadTag = styled.h1`
+ background-color:blue
+`
+
 export const SubmitButton = styled(StyledButton).attrs({
   type: 'submit'
 })`
-  box-shadow: 0 9px #999;
+ 
   &:active {
     background-color: ${props =>
       props.variant !== 'outline' ? '#FFF' : '#4caf50'};
